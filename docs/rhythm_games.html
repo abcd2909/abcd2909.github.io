@@ -62,20 +62,26 @@
 
   <figure>
     <figcaption><p>●黒魔 - 星が降らない街</p></figcaption>
-      <audio controls>
+      <audio id="myAudio" controls>
         <source src="a1.mp4" type="audio/mp4">
             Your browser does not support the audio element.
       </audio>
-  </figure> 
+  </figure>
 <br>
   <figure>
     <figcaption><p>●黒魔 - Dark Sheep</p></figcaption>
-      <audio controls>
+      <audio id="myAudio2" controls>
         <source src="a2.mp4" type="audio/mp4">
           Your browser does not support the audio element.
       </audio>
-  </figure> 
-
+  </figure>
+  <script>
+    var x = document.getElementById("myAudio");
+    var y = document.getElementById("myAudio2");
+    x.volume = 0.3;
+    y.volume = 0.3;
+  </script>
+      
 <p>This website will introduce you to some rhythm games that I have played or seen before,</p>
 <p>***and those games that I have not listed do not mean that they are not good.***</p>
 <br><br>
